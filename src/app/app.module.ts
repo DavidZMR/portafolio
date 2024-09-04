@@ -11,6 +11,8 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatListModule } from '@angular/material/list';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ProjectCardComponent } from './components/project-card/project-card.component';
 
 
 
@@ -18,7 +20,8 @@ import { SidenavComponent } from './components/sidenav/sidenav.component';
   declarations: [
     AppComponent,
     HomeComponent,
-    SidenavComponent
+    SidenavComponent,
+    ProjectCardComponent
   ],
   imports: [
     BrowserModule,
@@ -28,7 +31,8 @@ import { SidenavComponent } from './components/sidenav/sidenav.component';
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

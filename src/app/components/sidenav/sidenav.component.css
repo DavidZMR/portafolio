@@ -3,7 +3,7 @@ mat-toolbar{
     display: flex;
     justify-content: space-between;
     padding: 0 5% 0 5%;
-    height: 80px;
+    min-height: 80px !important;
 }
 mat-sidenav-container{
     height: 100vh;
